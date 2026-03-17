@@ -16,7 +16,7 @@ public class Gravitational : MonoBehaviour
         if (otherGameObject == null) { otherGameObject = new List<Gravitational>(); } // สร้างรายชื่อเพื่อ obj อื่นๆ
         otherGameObject.Add(this); // เพิ่ม Class Gravitational ใน obj อื่นใส่รายชื่อ
 
-        if (planet)
+        if (!planet)
         {
             rb.AddForce(Vector3.left * orbitSpeed);
         }
