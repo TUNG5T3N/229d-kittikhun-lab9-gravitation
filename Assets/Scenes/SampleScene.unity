@@ -314,7 +314,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4243261}
   serializedVersion: 5
-  m_Mass: 1000
+  m_Mass: 25000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -329,7 +329,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitational
   planet: 0
-  orbitSpeed: 1800
+  orbitSpeed: 18000
 --- !u!54 &71121157
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1181,7 +1181,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71121155}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 300
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -6188,7 +6188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitational
   planet: 0
-  orbitSpeed: 1800
+  orbitSpeed: 18000
 --- !u!54 &781206961
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6197,7 +6197,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781206959}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10881,7 +10881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitational
   planet: 0
-  orbitSpeed: 1800
+  orbitSpeed: 18000
 --- !u!54 &1276203315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10890,7 +10890,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276203313}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 400
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13030,7 +13030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.723831
+      value: -16.04
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13038,7 +13038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.26423
+      value: -3.01
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13749,7 +13749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitational
   planet: 0
-  orbitSpeed: 1800
+  orbitSpeed: 18000
 --- !u!54 &1746821919
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13758,7 +13758,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746821917}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 200
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -14058,7 +14058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitational
   planet: 0
-  orbitSpeed: 1800
+  orbitSpeed: 18000
 --- !u!54 &1880724565
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14067,7 +14067,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880724563}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 150
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -15453,8 +15453,8 @@ Transform:
   - {fileID: 1276203318}
   - {fileID: 71121160}
   - {fileID: 1746821922}
-  - {fileID: 781206964}
   - {fileID: 1880724568}
+  - {fileID: 781206964}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
