@@ -20,7 +20,9 @@ public class MagnusEffect : MonoBehaviour
     {
         if(Keyboard.current.spaceKey.wasPressedThisFrame && !_isShoot)
         {
-            _rb.AddForce(new Vector3(0, 0f, kickForce), ForceMode.Impulse);
+            // ปรับทิศทางตอนเตะ x, y, z
+            _rb.AddForce(new Vector3(-2, 4f, kickForce), ForceMode.Impulse);
+            // ให้ลูกบอลหมุนมาจากเคลื่อนที่
             _rb.AddRelativeTorque(Vector3.up * spinAmount);
             _isShoot = true;
         }
@@ -31,6 +33,7 @@ public class MagnusEffect : MonoBehaviour
         if (!_isShoot) return;
         Vector3 velocity = _rb.linearVelocity;
         Vector3 spin = _rb.angularVelocity;
+        // Cross Product หาทืศทางใหม่ให้บอลเคลื่อนที่ไป
         Vector3 magnusForce = Vector3.Cross(spin, velocity);
         magnusForce *= magnusStrength;
         _rb.AddForce(magnusForce);
